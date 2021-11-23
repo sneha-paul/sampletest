@@ -19,7 +19,8 @@ public class DemoJavaApplicationTest {
 		String actualUrl="https://www.amazon.com/";
 		String expectedUrl= driver.getCurrentUrl();
 		Assert.assertEquals(expectedUrl,actualUrl);
-
+		Thread.sleep(2000);
+        driver.quit();
 	}
 
 }

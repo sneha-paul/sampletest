@@ -16,7 +16,7 @@ public class DemoJavaApplicationTest {
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.com/");
 		Thread.sleep(2000);
-		String actualUrl="https://www.amazon.cnom/";
+		String actualUrl="https://www.amazon.com/";
 		String expectedUrl= driver.getCurrentUrl();
 		Assert.assertEquals(expectedUrl,actualUrl);
 		Thread.sleep(2000);

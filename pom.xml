@@ -78,6 +78,8 @@
 			</suiteXmlFiles>
 
 
+    <testFailureIgnore>false</testFailureIgnore>
+
 
 		</configuration>
 	</plugin>
